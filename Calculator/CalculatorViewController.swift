@@ -12,8 +12,10 @@ class CalculatorViewController: UIViewController {
     
     @IBOutlet weak var outputLabel: UILabel!
     
-    override func viewDidLoad() {
+    override func viewDidLoad(){
+        var brain = CalculatorBrain
         super.viewDidLoad()
+        
     }
     
     // MARK: - Action Handlers
